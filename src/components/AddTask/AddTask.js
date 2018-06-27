@@ -28,7 +28,6 @@ class AddTask extends Component {
           value={this.state.task}
         />
         <button onClick={() => this.props.taskAdded(this.state.name, this.state.task)}>Add Task</button>
-        {/* <button onClick={console.log("buttonnnnnnnnnnnnnn")}>Add Task</button> */}
       </div>
     );
   }
